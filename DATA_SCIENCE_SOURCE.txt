@@ -1,0 +1,12 @@
+***DATA SCIENCE SOURCE LIST***
+Compiler/IDE: Anaconda = Python + Jupyter
+Python Packages: numpy, pandas, matplotlib, scipy, statsmodels, seaborn, sklearn
+   - List Packages: Anaconda Prompt>> conda list
+   - List Outdated Packages: conda search --outdated
+   - Installing Package: Anaconda Prompt>> conda install package-name
+   - Update Package: Anaconda Prompt>> conda update package-name
+   - Updating All Packages: Anaconda Prompt>> conda install --all (or) conda update --all
+   - Remove Package: Anaconda Prompt>> conda remove package-name
+
+[PROJECTS]
+01-SimpleLinearRegression
