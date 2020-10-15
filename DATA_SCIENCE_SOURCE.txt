@@ -16,3 +16,7 @@ Python Packages:
 01-SimpleLinearRegression
 02-MultipleLinearRegression
 03-DummyVariables
+04-SimpleLinearRegression(Sklearn)
+05-MultipleLinearRegression(Sklearn)
+05-Standardization
+06-TrainTestSplit
