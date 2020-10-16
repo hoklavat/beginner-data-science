@@ -20,3 +20,4 @@ Python Packages:
 05-MultipleLinearRegression(Sklearn)
 05-Standardization
 06-TrainTestSplit
+07-PracticalExample
