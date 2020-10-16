@@ -1,4 +1,5 @@
 #05-Standardization
+#standardization: process of transforming data into a standard scale for predict method. (original variable - mean)/(standard deviation)
 
 import numpy as np
 import pandas as pd

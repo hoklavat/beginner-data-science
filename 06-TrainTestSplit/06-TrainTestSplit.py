@@ -13,7 +13,6 @@ b
 
 train_test_split(a) #split array into two arrays randomly with %75-%25 ratio by default
 
-
 a_train, a_test, b_train, b_test = train_test_split(a, b, test_size=0.2, random_state=42) 
 #test_size=0.2: corresponds to 80%-20% split ratio
 #random_state=42: constant random seed, same pattern after each split.

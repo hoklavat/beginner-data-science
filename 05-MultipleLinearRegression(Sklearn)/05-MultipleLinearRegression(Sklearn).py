@@ -32,7 +32,6 @@ p = x.shape[1]
 adjusted_r2 = 1-(1-r2)*(n-1)/(n-p-1) #adjusted R-square formula
 adjusted_r2
 
-
 # Feature Selection
 # select only worthy variables by their p-values. 
 # variable with p-value having 0 in the first three decimal places is eligible.
