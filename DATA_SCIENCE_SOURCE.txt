@@ -21,3 +21,7 @@ Python Packages:
 05-Standardization
 06-TrainTestSplit
 07-PracticalExample
+08-LogisticRegression
+08-LogisticRegression2
+09-BinaryPredictors
+
