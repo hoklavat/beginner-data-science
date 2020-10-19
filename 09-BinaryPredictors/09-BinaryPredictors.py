@@ -1,4 +1,4 @@
-#!09-BinaryPredictors
+#09-BinaryPredictors
 
 #BINARY PREDICTOR
 #corresponding to dummy variables in linear regression, that used to express categorical data as numerical

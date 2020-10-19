@@ -24,4 +24,7 @@ Python Packages:
 08-LogisticRegression
 08-LogisticRegression2
 09-BinaryPredictors
+10-KMeansClustering
+10-KMeansClustering2
+11-MarketSegmentation
 
