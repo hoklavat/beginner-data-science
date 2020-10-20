@@ -27,4 +27,6 @@ Python Packages:
 10-KMeansClustering
 10-KMeansClustering2
 11-MarketSegmentation
-
+12-HeatmapDendrogram
+13-ScalarVectorMatrice
+14-Tensor
