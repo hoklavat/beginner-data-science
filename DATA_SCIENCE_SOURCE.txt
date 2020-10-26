@@ -4,13 +4,18 @@ Compiler/IDE:
    * Anaconda = Python + Jupyter
 
 Python Packages: 
-   * Required Packages numpy, pandas, matplotlib, scipy, statsmodels, seaborn, sklearn
+   * Required Packages numpy, pandas, matplotlib, scipy, statsmodels, seaborn, sklearn, tensorflow
    * List Packages: Anaconda Prompt>> conda list
    * List Outdated Packages: Anaconda Prompt>> conda search --outdated
    * Install Package: Anaconda Prompt>> conda install package-name
    * Update Package: Anaconda Prompt>> conda update package-name
    * Update All Packages: Anaconda Prompt>> conda install --all (or) conda update --all
    * Remove Package: Anaconda Prompt>> conda remove package-name
+   * Show Environments: Anaconda Prompt>> conda info --envs
+   * Add Environment: Anaconda Prompt>> conda create --name py3-TF2.0 python=3
+   * Activate Environment: Anaconda Prompt>> conda activate py3-TF2.0
+   * Upgrade Tensor Flow: Anaconda Prompt>> pip install --upgrade tensorflow
+   * Install Kernel: Anaconda Prompt>> pip install ipykernel
 
 [PROJECTS]
 01-SimpleLinearRegression
@@ -31,3 +36,4 @@ Python Packages:
 13-ScalarVectorMatrice
 14-Tensor
 15-NeuralNetwork
+16-TensorFlow
