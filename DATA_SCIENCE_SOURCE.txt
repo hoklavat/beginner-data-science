@@ -37,3 +37,4 @@ Python Packages:
 14-Tensor
 15-NeuralNetwork
 16-TensorFlow
+17-ImageRecognition

@@ -1,14 +1,13 @@
 #16-TensorFlow
 
 #IMPORT LIBRARIES
-
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
 #RANDOM DATA GENERATION
 observations = 1000 #number of observations
-xs = np.random.uniform(low=-10, high=10, size=(observations, 1)) #weight-1, 100row-1column matrice
+xs = np.random.uniform(low=-10, high=10, size=(observations, 1)) #weight-1, 1000 rows/1 column matrice
 zs = np.random.uniform(low=-10, high=10, size=(observations, 1)) #weight-2
 generated_inputs = np.column_stack((xs, zs))
 noise = np.random.uniform(-1, 1, (observations, 1))
