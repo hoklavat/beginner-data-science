@@ -38,3 +38,4 @@ Python Packages:
 15-NeuralNetwork
 16-TensorFlow
 17-ImageRecognition
+18-CustomerInterest
