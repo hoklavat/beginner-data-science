@@ -2,7 +2,6 @@
 #Will old customers buy again?
 
 #EXTRACT DATA
-
 import numpy as np
 from sklearn import preprocessing
 
@@ -25,7 +24,6 @@ for i in range(targets_all.shape[0]):
 unscaled_inputs_equal_priors = np.delete(unscaled_inputs_all, indices_to_remove, axis=0)
 targets_equal_priors = np.delete(targets_all, indices_to_remove, axis=0)
 
-
 #STANDARDIZE INPUTS
 scaled_inputs = preprocessing.scale(unscaled_inputs_equal_priors) #standardize all inputs
 
@@ -34,7 +32,6 @@ shuffled_indices = np.arange(scaled_inputs.shape[0]) #evenly spaced values withi
 np.random.shuffle(shuffled_indices) #randomize indices
 shuffled_inputs = scaled_inputs[shuffled_indices]
 shuffled_targets = targets_equal_priors[shuffled_indices]
-
 
 #SPLIT TRAIN, VALIDATION, TEST
 samples_count = shuffled_inputs.shape[0]
